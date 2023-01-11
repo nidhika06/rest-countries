@@ -1,0 +1,151 @@
+@import url("https://fonts.google.com/specimen/Nunito+Sans");
+
+
+:root{
+    --LightModeText : hsl(200, 15%, 8%);
+    --lightModeInput : hsl(0, 0%, 52%);
+    --lightModeBackground : hsl(0, 0%, 98%);
+    --darkModeElements : hsl(0, 0%, 100%);
+}
+
+
+.dark_theme{
+    --lightModeBackground : hsl(207, 26%, 17%);
+    --LightModeText : hsl(0, 0%, 100%);
+    --darkModeElements : hsl(209, 23%, 22%);
+    --lightModeInput : hsl(0, 0%, 52%);
+
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    /* --bgColor:hsl(0, 0%, 100%); */
+    --fontcolor: hsl(200, 15%, 8%);
+    font-family: "Nunito Sans",sans-serif;
+
+    background-color: var(--lightModeBackground);
+    color: var(--LightModeText)
+
+}
+.btn1{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+container{
+    width: 100%;
+}
+.box1{
+    
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+}
+p{
+    margin: 0px;
+}
+.countries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    width: 13rem;
+    height: 11rem;
+}
+
+.searching{
+    border:none;
+    outline:none;
+}
+.search-box{
+    box-shadow: 0 0 5px rgb(114 107 107);
+    border-radius: 3px;
+}
+i{
+    padding: 13px;
+}
+
+.dark{
+    background-color: hsl(209, 23%, 22%);
+    color:hsl(0, 0%, 100%);
+}
+
+.card{
+    background-color: var(--lightModeBackground);
+    color: var(--LightModeText)
+}
+.new{
+    background-color: hsl(209, 23%, 22%);
+    color:hsl(0, 0%, 100%);
+}
+
+
+.searching{
+    background-color: var(--lightModeBackground);
+}
+
+/* .btn2{
+    border:none;
+    outline:none;
+    box-shadow: 0 0 5px rgb(114 107 107);
+    border-radius: 3px;
+    background-color:var(--lightModeBackground);
+    color:var(--LightModeText);
+} */
+.region{
+    background-color:var(--lightModeBackground); 
+    color:var(--LightModeText);
+}
+
+.drop{
+    background-color:var(--LightModeText);
+}
+
+
+.next{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background:var(--darkModeElements);
+    /* padding-top: 25vh; */
+}
+.back{
+    position: absolute;
+    top:3rem;
+    left: 30px;
+}
+.col{
+    justify-content:space-between;
+    align-items:center;
+    height: 100%;
+    width:100%;
+}
+.img1{
+    width: 26rem;
+    height: 20rem;
+
+}
+.row{
+    align-items: center;
+}
+.btn3{
+    outline: none;
+    border: none;
+    background: transparent;
+    box-shadow: 0 0 5px rgb(114 107 107);
+
+    
+
+}
+
+.col1{
+    margin-right: 24px;
+}
+
+.show{
+    display:none;
+}
